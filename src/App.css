@@ -1,0 +1,80 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+
+.app-title {
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.app-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.app-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.post {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.post-title {
+  font-size: 1.5em;
+  color: #1a237e;
+  margin-bottom: 10px;
+}
+
+.post-description {
+  font-size: 1em;
+  color: #424242;
+}
+
+.post-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-button {
+  padding: 10px;
+  background-color: #f44336; /* Red */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
